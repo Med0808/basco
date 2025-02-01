@@ -1,0 +1,77 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionel**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/H2C.jfif",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2020",
+                        "end": "04/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Software** Engineer",
+                            "info": "H2C Development",
+                            "text": "Designed, developed, and maintained robust software applications, performing comprehensive system analysis and rigorous testing to ensure optimal performance.Implemented industry best coding practices to enhance code quality and maintainability,while collaborating cross-functionally with team members to consistently deliver projects on or ahead of deadlines.",
+                            "tags": ["VB4", "MySQL", "React.js", "Node.js" , "Next.js" , "Nest.js", "C#"]
+                        },
+                        "fr": {
+                            "title": "Ingénieur **Logiciel**",
+                            "info": "H2C Development",
+                            "text": "Conception, développement et maintenance d'applications logicielles robustes, en réalisant une analyse approfondie des systèmes et des tests rigoureux pour garantir des performances optimales. Mise en œuvre des meilleures pratiques de codage de l'industrie afin d'améliorer la qualité et la maintenabilité du code, tout en collaborant de manière transversale avec les membres de l'équipe pour livrer les projets dans les délais ou en avance.",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/skools-logo.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "02/01/2021",
+                        "end": "07/01/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack** Engineer",
+                            "info": "Skools App",
+                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST"]
+                        },
+                        "fr": {
+                            "title": "Développeur Full-Stack **Remote**",
+                            "info": "Skools App",
+                            "text": "J'ai contribué à l'amélioration du site Web de Skools.app en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

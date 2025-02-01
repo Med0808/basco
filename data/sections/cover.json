@@ -1,0 +1,180 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Baghat M.Amine!**"
+        },
+
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Baghat M.Amine!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                
+                "fr": {}
+                
+            },
+
+            "items": [
+                {
+                    "value": "Fés – MA",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "amine.baghat@outlook.com",
+                    "links": [
+                        {"href": "mailto:amine.baghat@outlook.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@Med0808",
+                    "links": [
+                        {"href": "https://github.com/Med0808"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                
+                "fr": {"title": "**Un peu** à propos de moi..."}
+                
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>Software Engineer with 4 years of experience in designing, developing, and maintaining scalable software solutions. Skilled in various technologies and focused on delivering high-quality systems. A strong team player with a proven track record of successful project management and development workflow optimization."},
+                        "fr": {"text": "<p>Ingénieur logiciel avec 4 ans d'expérience dans la conception, le développement et la maintenance de solutions logicielles évolutives. Compétent dans diverses technologies et axé sur la livraison de systèmes de haute qualité. Collaborateur efficace en équipe, avec un historique de réussite dans la gestion de projets et l'optimisation des flux de développement.</p>"}
+                    }
+                }
+            ]
+        },
+
+     
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                
+                "fr": { "title": "Intérêts **personnels** " }
+                
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-person-hiking",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": " Hiking ⛰️",
+                            "info": "Exploring new trails and improving my endurance."
+                        },
+                       
+                        "fr": {
+                            "title": "Randonnée en montagne ⛰️",
+                            "info": "Explorer de nouveaux sentiers et améliorer mon endurance."
+
+                        }
+                       
+                    }
+                },
+
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chart-line",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Investing",
+                            "info": "Learning the basics of stocks and personal finance."
+                        },
+                      
+                        "fr": {
+                            "title": "Investir",
+                            "info": "Apprendre les bases des actions et des finances personnelles."
+                        }
+                       
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photo editing",
+                            "info": "Enhancing photos through creative editing techniques."
+                        },
+                       
+                        "fr": {
+                            "title": "Retouche photo",
+                            "info": "Améliorer des photos avec des techniques de montage créatives."
+                        }
+                       
+                    }
+                }
+            ]
+        }
+    ]
+}

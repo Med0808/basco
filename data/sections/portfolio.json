@@ -1,0 +1,162 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        
+                        "fr": {"singular": "Site web", "plural": "Web"}
+                        
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"}
+                        
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/heitz.jfif",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                   
+
+                    "locales": {
+                        "en": {
+                            "title": "BackOffice Heitz System",
+                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+
+                        "fr": {
+                            "title": "BackOffice Heitz System",
+                            "text": "Un backend <b>API RESTful</b> construit avec <b>Nest.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
+                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/P1070169-scaled.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://rouen.espace360.net/activites"}
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "Rouen Espace 360",
+                            "text": "Espace 360, a unique network of leisure parks. I developed the Rouen Espace 360 website, an immersive platform showcasing interactive experiences and digital services. This project required a full-stack approach, combining a responsive user interface with React.js and efficient state management using Redux.",
+                            "tags": ["React.js","Node.js", "Redux" , "APIs"]
+                        },
+
+                        "fr": {
+                            "title": "Rouen Espace 360",
+                            "text": "Espace 360, un réseau de parcs de loisirs unique.J’ai développé le site web Rouen Espace 360, une plateforme immersive qui met en avant des expériences interactives et des services numériques. Ce projet a nécessité une approche full-stack, combinant une interface utilisateur réactive avec React.js et une gestion efficace des états via Redux.",
+                            "tags": ["React.js","Node.js", "Redux" , "APIs"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/skools-logo.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://skools.app/"}
+                    ],
+
+                
+                    "locales": {
+                        "en": {
+                            "title": "Skools.App",
+                            "text": "**Skools.app**, a platform dedicated to managing and optimizing educational processes. This project is built on a robust **Laravel (PHP)** backend and a high-performance **MySQL** database, ensuring efficient user and data management.",
+                            "tags": ["PHP", "Laravel", "MySQL"]
+                        },
+
+                        "fr": {
+                            "title": "Skools.App",
+                            "text": "Skools.app, une plateforme dédiée à la gestion et l’optimisation des processus éducatifs. Ce projet repose sur un backend robuste en **Laravel (PHP)** et une base de données performante sous MySQL, garantissant une gestion efficace des utilisateurs et des données.",
+                            "tags": ["PHP", "Laravel", "MySQL"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img":"images/pictures/chik.jfif",
+                        "fa": null,
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://chikshop.ma/"}
+                    ],
+
+
+                    "locales": {
+                        "en": {
+                            "title": "ChikShop",
+                            "text": "I designed and developed ChikShop.ma, an online store specializing in the sale of high-end cosmetics and makeup products in Morocco, offering a smooth and intuitive shopping experience. Using WordPress, I built an optimized e-commerce website with advanced features for product management, payments, and order processing.",
+                            "tags": ["Wordress", "WooCommerce", "Elementor"]
+                        },
+
+                        "fr": {
+                            "title": "ChikShop",
+                            "text": "J’ai conçu et développé le site ChikShop.ma, une boutique en ligne spécialisée dans la vente d'articles cosmétiques et maquillages haut de gamme au Maroc.Offrant une expérience d’achat fluide et intuitive. Grâce à WordPress, j’ai mis en place un site e-commerce optimisé, intégrant des fonctionnalités avancées pour la gestion des produits, des paiements et des commandes.",
+                            "tags": ["Wordress", "WooCommerce", "Elementor"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

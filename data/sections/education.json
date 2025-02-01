@@ -1,0 +1,84 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/highschool.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2012",
+                        "end": "07/01/2013"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor's Degree** in Physical Sciences",
+                            "info": "Al Fath High School, Taourirt ",
+                            "text": "Baccalaureate with honors (Good) in Physical Sciences",
+                            "tags": []
+                        },
+
+                        "fr": {
+                            "title": "**Baccalauréat** en sciences physique ",
+                            "info": "Lycée Al Fath Taourirt",
+                            "text": "Baccalauréat avec mention assez bien en sciences physique",
+                            "tags": null
+                        }
+
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/logohaute.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2013",
+                        "end": "08/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Master's** in Computer Science",
+                            "info": "EHEI Oujda",
+                            "text": "<p>Gained in-depth expertise in advanced computer engineering fields, including software development, hardware design, and network architecture. Completed hands-on projects and research, honing technical skills and applying theoretical knowledge to real-world challenges.</p>",
+                            "tags": []
+                        },
+
+                        "fr": {
+                            "title": "**Master** en Développement Logiciel",
+                            "info": "Ecole des hautes études d'ingénierie Oujda",
+                            "text": "<p>Acquis une expertise approfondie dans les domaines avancés du génie informatique, y compris le développement logiciel, la conception matérielle et l’architecture réseau. Réalisé des projets pratiques et des recherches, affinant ainsi les compétences techniques et appliquant les connaissances théoriques à des défis concrets.</p>",
+                            "tags": []
+                        }
+                        
+                    }
+                }
+            ]
+        }
+    ]
+}
