@@ -91,15 +91,15 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "/public/images/pictures/espace1.png",
-                                "/public/images/pictures/espace2.png",
-                                "/public/images/pictures/espace3.png",
-                                "/public/images/pictures/espace4.png",
-                                "/public/images/pictures/espace5.png",
-                                "/public/images/pictures/espace6.png",
-                                "/public/images/pictures/espace7.png",
-                                "/public/images/pictures/espace8.png",
-                                "/public/images/pictures/espace9.png"
+                                "/images/pictures/espace1.png",
+                                "/images/pictures/espace2.png",
+                                "/images/pictures/espace3.png",
+                                "/images/pictures/espace4.png",
+                                "/images/pictures/espace5.png",
+                                "/images/pictures/espace6.png",
+                                "/images/pictures/espace7.png",
+                                "/images/pictures/espace8.png",
+                                "/images/pictures/espace9.png"
                             ]
                         }
                     },
@@ -137,14 +137,14 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "/public/images/pictures/skools1.png",
-                                "/public/images/pictures/skools2.png",
-                                "/public/images/pictures/skools3.png",
-                                "/public/images/pictures/skools4.png",
-                                "/public/images/pictures/skools5.png",
-                                "/public/images/pictures/skools6.png",
-                                "/public/images/pictures/skools7.png",
-                                "/public/images/pictures/skools8.png"
+                                "/images/pictures/skools1.png",
+                                "/images/pictures/skools2.png",
+                                "/images/pictures/skools3.png",
+                                "/images/pictures/skools4.png",
+                                "/images/pictures/skools5.png",
+                                "/images/pictures/skools6.png",
+                                "/images/pictures/skools7.png",
+                                "/images/pictures/skools8.png"
                             ]
                         }
                     },
@@ -181,13 +181,13 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "/public/images/pictures/chik1.png",
-                                "/public/images/pictures/chik2.png",
-                                "/public/images/pictures/chik3.png",
-                                "/public/images/pictures/chik4.png",
-                                "/public/images/pictures/chik5.png",
-                                "/public/images/pictures/chik6.png",
-                                "/public/images/pictures/chik7.png"
+                                "/images/pictures/chik1.png",
+                                "/images/pictures/chik2.png",
+                                "/images/pictures/chik3.png",
+                                "/images/pictures/chik4.png",
+                                "/images/pictures/chik5.png",
+                                "/images/pictures/chik6.png",
+                                "/images/pictures/chik7.png"
                             ]
                         }
                     },
