@@ -181,9 +181,9 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "/images/pictures/chik1.png",
-                                "/images/pictures/chik2.png",
-                                "/images/pictures/chik3.png",
+                                "https://med0808.github.io/basco/images/pictures/chik1.png",
+                                "https://med0808.github.io/basco/images/pictures/chik2.png",
+                                "https://med0808.github.io/basco/images/pictures/chik3.png",
                                 "/images/pictures/chik4.png",
                                 "/images/pictures/chik5.png",
                                 "/images/pictures/chik6.png",
